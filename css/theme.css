@@ -1,0 +1,68 @@
+html{
+  position:relative;
+  overflow-x: hidden;
+}
+
+
+body{
+    background-color:whitesmoke;
+
+
+}
+nav{
+  background:gold;
+  display: block;
+  /*text-align: right;*/
+  padding: 1rem 1.4rem;
+
+}
+nav a{
+  font-size:20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  color: black;
+  font-family: Arial;
+  text-align: center;
+  display: block;
+}
+
+nav a.active{
+  color: black;
+  font-size: 40px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+a[href="#content"] {
+  text-transform: initial;
+  color: cornsilk;
+  position:absolute;
+  left: -9999px;
+}
+a[href="#content"]:focus{
+  position: relative;
+  left: 0;
+}
+
+h1{
+  line-height: 5;
+  font-size: 30px;
+  text-align: center;
+}
+
+li{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+  }
